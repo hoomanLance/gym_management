@@ -1,0 +1,116 @@
+{
+ "actions": [],
+ "autoname": "format:CB-{####}",
+ "creation": "2022-12-12 01:49:16.777202",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "gym_class",
+  "full_name",
+  "column_break_337l",
+  "class_trainer",
+  "section_break_9pzj",
+  "schedule",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "gym_class",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Gym Class",
+   "options": "Gym Class",
+   "reqd": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_337l",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "class_trainer",
+   "fieldtype": "Data",
+   "label": "Class Trainer",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_9pzj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "schedule",
+   "fieldtype": "Table",
+   "label": "Class Schedule",
+   "options": "Gym Class Schedule",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Gym Class Booking",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-12-12 01:49:16.777202",
+ "modified_by": "Administrator",
+ "module": "Gym Management",
+ "name": "Gym Class Booking",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Gym Admin",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Gym Member",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

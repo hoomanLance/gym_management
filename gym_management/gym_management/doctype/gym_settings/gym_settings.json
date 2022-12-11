@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-12-12 02:38:24.313697",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "location",
+  "gym_machine_count",
+  "gym_employees",
+  "gym_members"
+ ],
+ "fields": [
+  {
+   "fieldname": "gym_machine_count",
+   "fieldtype": "Int",
+   "label": "Gym Machine Count"
+  },
+  {
+   "fieldname": "gym_employees",
+   "fieldtype": "Int",
+   "label": "Gym Employees"
+  },
+  {
+   "fieldname": "gym_members",
+   "fieldtype": "Int",
+   "label": "Gym Members"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-12-12 02:39:22.173295",
+ "modified_by": "Administrator",
+ "module": "Gym Management",
+ "name": "Gym Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,25 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<h1>{{ title }}</h1>
+<h2>Workout Plan</h2>
+<table>
+<tr>
+    <td>No.</td>
+    <td>Workout Name</td>
+    <td>Number of Set</td>
+    <td>Duration</td>
+</tr>
+{% for row in exercise %}
+<tr>
+    <td>{{ row.idx }}.</td>
+    <td>{{ row.workout_name }}</td>
+    <td>{{ row.number_of_set }}</td>
+    <td>{{ row.duration }} seconds</td>
+</tr>
+{% endfor %}
+</table>
+
+{% endblock %}
+
+<!-- this is a sample default web page template -->

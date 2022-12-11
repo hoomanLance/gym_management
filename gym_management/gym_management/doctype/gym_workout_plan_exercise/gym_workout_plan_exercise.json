@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-12-12 02:36:28.154726",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "workout_name",
+  "number_of_set",
+  "duration"
+ ],
+ "fields": [
+  {
+   "fieldname": "workout_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Workout Name"
+  },
+  {
+   "fieldname": "number_of_set",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Number of Set"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Duration",
+   "in_list_view": 1,
+   "label": "Duration"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-12-12 02:36:28.154726",
+ "modified_by": "Administrator",
+ "module": "Gym Management",
+ "name": "Gym Workout Plan Exercise",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

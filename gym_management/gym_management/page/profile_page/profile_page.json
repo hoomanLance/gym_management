@@ -1,0 +1,29 @@
+{
+ "content": null,
+ "creation": "2022-12-12 05:11:26.765981",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2022-12-12 05:11:26.765981",
+ "modified_by": "Administrator",
+ "module": "Gym Management",
+ "name": "profile-page",
+ "owner": "Administrator",
+ "page_name": "profile-page",
+ "roles": [
+  {
+   "role": "Gym Member"
+  },
+  {
+   "role": "Gym Admin"
+  },
+  {
+   "role": "Gym Trainer"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Your Profile"
+}
